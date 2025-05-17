@@ -11,7 +11,7 @@ function formatElapsedTime()
   const daysPart = Math.floor(timeSinceStream / (1000 * 60 * 60 * 24));
 
   
-  return `${daysPart} days, ${hoursPart} hours, ${minutesPart} minutes, and ${secondsPart} seconds without Nerissa`;
+  return `${daysPart} days, ${hoursPart} hours, ${minutesPart} minutes, and ${secondsPart} seconds without ERB`;
 }
 
 function updateTimeSinceNerissaElement() 
