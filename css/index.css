@@ -59,7 +59,7 @@ a:link, a:visited
 
 img 
 {
-  height: 40vmin;
+  height: 60vmin;
   width: 60vmin;
 }
 
@@ -71,3 +71,4 @@ footer
 
   margin-bottom: 2vmin;
 }
+
