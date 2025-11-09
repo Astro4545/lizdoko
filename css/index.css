@@ -5,12 +5,7 @@ body
   height: 100vh;
 
   color: #BCBCBE;
-
-  background-image: url('img/bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #C22F10
+  background-color: #B13537;
 
   font-family: "Courgette", cursive;
   font-size: 4vmin;
@@ -76,6 +71,7 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
 
