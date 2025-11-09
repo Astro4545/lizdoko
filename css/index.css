@@ -6,7 +6,7 @@ body
 
   color: #BCBCBE;
   background-color: #B13537;
-   background-image: url(img/bg.png);
+   background-image: url("img/bg.png");
 
   font-family: "Courgette", cursive;
   font-size: 4vmin;
@@ -72,5 +72,6 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
