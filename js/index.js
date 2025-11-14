@@ -40,7 +40,7 @@ function formatElapsedKaraTime()
 
 function updateTimeSinceKaraElement() 
 {
-  document.getElementById("how-long-since-Kara").textContent = formatElapsedKaraTime();
+  document.getElementById("how-long-since-kara").textContent = formatElapsedKaraTime();
 }
 
 updateTimeSinceKaraElement();
@@ -75,6 +75,7 @@ function buildRandomNerissaStreamLink()
 
 //builds the first link upon page load
 buildRandomNerissaStreamLink();*/
+
 
 
 
