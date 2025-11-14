@@ -4,7 +4,7 @@ body
   flex-direction: column;
   height: 100vh;
 
-  cheight: 108vmin;
+  height: 108vmin;
   width: 192vmin;
 
   font-family: "Courgette", cursive;
@@ -76,6 +76,7 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
 
