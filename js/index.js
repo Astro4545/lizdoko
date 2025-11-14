@@ -27,7 +27,7 @@ function formatElapsedKaraTime()
   const currentKaraTime = new Date();
   const lastKaraEndTime = new Date("2025-10-02T11:00:30Z");
   // in milliseconds
-  const timeSinceKara = currentTime.getTime() - lastKaraEndTime.getTime();
+  const timeSinceKara = currentKaraTime.getTime() - lastKaraEndTime.getTime();
   
   const secondsKaraPart = Math.floor((timeSinceKara % (1000 * 60)) / 1000);
   const minutesKaraPart = Math.floor((timeSinceKara % (1000 * 60 * 60)) / (1000 * 60));
@@ -75,6 +75,7 @@ function buildRandomNerissaStreamLink()
 
 //builds the first link upon page load
 buildRandomNerissaStreamLink();*/
+
 
 
 
