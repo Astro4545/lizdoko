@@ -56,11 +56,16 @@ a:link, a:visited
   text-decoration: underline;
   color: inherit;
 }
-
-img 
+img1 
 {
   height: 60vmin;
   width: 60vmin;
+}
+
+img2 
+{
+  height: 180vmin;
+  width: 120vmin;
 }
 
 footer 
@@ -71,6 +76,7 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
 
