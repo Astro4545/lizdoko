@@ -21,6 +21,30 @@ function updateTimeSinceNerissaElement()
 
 updateTimeSinceNerissaElement();
 setInterval(updateTimeSinceNerissaElement, 1000);
+
+function formatElapsedKaraTime() 
+{
+  const currentKaraTime = new Date();
+  const lastKaraEndTime = new Date("2025-11-13T18:40:30Z");
+  // in milliseconds
+  const timeSinceKara = currentTime.getTime() - lastKaraEndTime.getTime();
+  
+  const secondsKaraPart = Math.floor((timeSinceKara % (1000 * 60)) / 1000);
+  const minutesKaraPart = Math.floor((timeSinceKara % (1000 * 60 * 60)) / (1000 * 60));
+  const hoursKaraPart = Math.floor((timeSinceKara % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const daysKaraPart = Math.floor(timeSinceKara / (1000 * 60 * 60 * 24));
+
+  
+  return `${daysKaraPart} days, ${hoursKaraPart} hours, ${minutesKaraPart} minutes, and ${secondsKaraPart} seconds without ERB Kara`;
+}
+
+function updateTimeSinceKaraElement() 
+{
+  document.getElementById("how-long-since-Kara").textContent = formatElapsedKaraTime();
+}
+
+updateTimeSinceKaraElement();
+setInterval(updateTimeSinceKaraElement, 1000);
 //--------------------------------------------------------------------
 /*const nerissaStreams = ["2QPj2hPm8vM", "aO9Te463qBQ", "sjjPriB-0xw", "PJSd7DYlGNo", "SOLsTnPzmAE", "1Fi1_gTTqwU",
                         "gtAt6xfeuFo", "qGEyKRT9Oj0", "hOX5wf06LN4", "JcdYQ3ApqWg", "pGQBbTk164s", "5s-O3oluZJM",
@@ -51,6 +75,7 @@ function buildRandomNerissaStreamLink()
 
 //builds the first link upon page load
 buildRandomNerissaStreamLink();*/
+
 
 
 
