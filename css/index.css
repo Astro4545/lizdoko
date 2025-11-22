@@ -4,10 +4,10 @@ body
   flex-direction: column;
   height: 100vh;
 
-  /* background-image: url("img/bg.webp");  adjust path as needed */
-  /* background-size: cover;       makes it fill the screen */
-  /*background-repeat: no-repeat;   prevents tiling */
-  /* background-attachment: fixed;  optional: keeps image fixed while scrolling */
+  background-image: url("img/bg.webp"); adjust path as needed; 
+  background-size: cover; makes it fill the screen;
+  background-repeat: no-repeat; prevents tiling;
+  background-attachment: fixed; optional: keeps image fixed while scrolling;
 
   font-family: "Courgette", cursive;
   font-size: 4vmin;
@@ -79,6 +79,7 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
 
