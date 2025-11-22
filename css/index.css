@@ -11,6 +11,8 @@ body
 
   font-family: "Courgette", cursive;
   font-size: 4vmin;
+  font-color: #ffffff;
+
 
   text-align: center;
   text-shadow: -2px 2px 2px black;
@@ -78,6 +80,7 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
 
