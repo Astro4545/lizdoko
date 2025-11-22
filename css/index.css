@@ -4,8 +4,10 @@ body
   flex-direction: column;
   height: 100vh;
 
-  color: #BCBCBE;
-  background-color: #B13537;
+  background-image: url("lizdoko/img/bg.png"); /* adjust path as needed */
+  background-size: cover;        /* makes it fill the screen */
+  background-repeat: no-repeat;  /* prevents tiling */
+  background-attachment: fixed;  /* optional: keeps image fixed while scrolling */
 
   font-family: "Courgette", cursive;
   font-size: 4vmin;
@@ -76,6 +78,7 @@ footer
 
   margin-bottom: 2vmin;
 }
+
 
 
 
