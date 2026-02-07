@@ -25,7 +25,7 @@ setInterval(updateTimeSinceNerissaElement, 1000);
 function formatElapsedKaraTime() 
 {
   const currentKaraTime = new Date();
-  const lastKaraEndTime = new Date("2025-01-31T22:30:30Z");
+  const lastKaraEndTime = new Date("2026-01-31T22:30:30Z");
   // in milliseconds
   const timeSinceKara = currentKaraTime.getTime() - lastKaraEndTime.getTime();
   
@@ -75,6 +75,7 @@ function buildRandomNerissaStreamLink()
 
 //builds the first link upon page load
 buildRandomNerissaStreamLink();*/
+
 
 
 
