@@ -1,7 +1,7 @@
 function formatElapsedTime() 
 {
   const currentTime = new Date();
-  const lastStreamEndTime = new Date("2026-08-07T08:00:30Z");
+  const lastStreamEndTime = new Date("2026-08-21T17:30:30Z");
   // in milliseconds
   const timeSinceStream = currentTime.getTime() - lastStreamEndTime.getTime();
   
@@ -25,7 +25,7 @@ setInterval(updateTimeSinceNerissaElement, 1000);
 function formatElapsedKaraTime() 
 {
   const currentKaraTime = new Date();
-  const lastKaraEndTime = new Date("2026-07-19T04:30:30Z");
+  const lastKaraEndTime = new Date("2026-08-20T04:30:30Z");
   // in milliseconds
   const timeSinceKara = currentKaraTime.getTime() - lastKaraEndTime.getTime();
   
